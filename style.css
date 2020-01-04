@@ -1,0 +1,91 @@
+body {
+    background: rgb(222,226,208);
+    background: linear-gradient(90deg, rgba(222,226,208,1) 0%, rgba(190,210,233,1) 100%);
+    font-family: 'Quicksand', sans-serif;
+    color: #465a74;
+    padding-top: 40px;
+}
+
+h1 {
+    margin: 0;
+}
+
+i{
+    margin: 0 8px 0 8px;
+}
+
+#memo {
+    width: 600px;
+    min-height: 400px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    border-radius: 4px;
+    -webkit-box-shadow: 10px 10px 36px 0px rgba(159,169,179,1);
+    -moz-box-shadow: 10px 10px 36px 0px rgba(159,169,179,1);
+    box-shadow: 10px 10px 36px 0px rgba(159,169,179,1);
+    padding: 40px;
+}
+
+#new-text{
+    height: 24px;
+    width: 300px;
+    margin: 24px 16px 0 0;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+    padding: 8px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    color: #79a2d7;
+}
+
+ul{
+    list-style-type:none;
+}
+
+li{
+    line-height: 32px;
+}
+
+.done{
+    height: 16px;
+    width:16px;
+}
+
+#add{
+    height: 40px;
+    padding: 0 16px 0 16px;
+    border: none;
+    background-color: #465a74;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete{
+    border: none;
+    font-size: 16px;
+    color: #79a2d7;
+}
+
+#date{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#delete-all{
+    margin-top: 40px;
+    height: 40px;
+    padding: 0 16px 0 16px;
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    color: #465a74;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#delete-all:hover{
+color: red;
+}
